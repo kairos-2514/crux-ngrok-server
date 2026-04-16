@@ -10,7 +10,8 @@ module.exports = {
     {
       name: "crux-ngrok",
       script: "ngrok",
-      args: "http 4000",
+      args: "http 4001 --domain=unperishing-nonseasonably-yesenia.ngrok-free.dev",
+      restart_delay: 5000,
     },
   ],
 };
